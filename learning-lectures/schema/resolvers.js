@@ -52,7 +52,7 @@ const resolvers = {
     },
     DeleteUsernameInput: (parent, args) => {
       const {deleteUsernameInputId} = args.input;
-      _.remove(UserList,(user)=>{user.id===(deleteUsernameInputId)});
+      _.remove(UserList,(user)=>{user.id===Number(deleteUsernameInputId)});
       return null;
     },
   },
