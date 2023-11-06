@@ -1,4 +1,3 @@
-import "./App.css";
 import Display from './display'
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 function App() {
