@@ -46,7 +46,7 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    CreateUser(input: UpdateUsernameInput!): User!
+    CreateUser(input: CreateUserInput!): User!
     UpdateUsernameInput(input: UpdateUsernameInput!): User
     DeleteUsernameInput(id:ID!): User
     
